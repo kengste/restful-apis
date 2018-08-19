@@ -10,6 +10,7 @@ setupMiddware(app);
 connect();
 // setup basic routing for index route
 app.use('/signin', signin);
+app.use('/api', protect, restRouter);
 
 // catch all
 app.all('*', (req, res) => {

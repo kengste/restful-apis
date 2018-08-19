@@ -1,5 +1,7 @@
 import http from 'http'
 import { createServer } from 'http'
+import config from './config'
+require('dotenv').config()
 
 import app from './server'
 
@@ -7,8 +9,8 @@ import app from './server'
 const server = http.createServer(app);
 let currentApp = app
 
-server.listen(3000, () => {
-	console.log("API on port 3000");
+server.listen(config.port, () => {
+	console.log(`API on port ${config.port}`);
 });
 
 if (module.hot) {
