@@ -6,7 +6,7 @@ const baseConfig = {
   port: 3000,
   secrets: {},
   db: {
-    url: 'mongodb://localhost/jams'
+    url: 'mongodb://mongo/jams'
   }
 }
 

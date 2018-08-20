@@ -4,6 +4,6 @@ export const config = {
     JWT_SECRET: 'yeezy350boost'
   },
   db: {
-    url: 'mongodb://localhost/jams-test'
+    url: 'mongodb://mongo/jams-test'
   }
 }
