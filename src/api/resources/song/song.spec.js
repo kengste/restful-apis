@@ -33,8 +33,8 @@ describe('Song model', () => {
   })
 })
 
-createApiSpec(
-  Song,
-  'song',
-  {title: 'downtown jamming', url: 'http://music.mp3'}
-)
+// createApiSpec(
+//   Song,
+//   'song',
+//   {title: 'downtown jamming', url: 'http://music.mp3'}
+// )

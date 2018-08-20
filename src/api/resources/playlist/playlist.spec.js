@@ -24,8 +24,8 @@ describe('Playlist Model', () => {
     expect(schema.favorite.default).to.equal(false)
   })
 })
-createApiSpec(
-  Playlist,
-  'playlist',
-  {title: 'study jams', favorite: true}
-)
+// createApiSpec(
+//   Playlist,
+//   'playlist',
+//   {title: 'study jams', favorite: true}
+// )
